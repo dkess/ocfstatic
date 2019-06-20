@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+<div class="page-home">
+
+<section class="hero">
+    <div class="bigocflogo">OCF</div>
+    <div class="ocfdescription">
+        <h1>Open Computing Facility</h1>
+        <div>
+            An all-volunteer student organization dedicated to free computing
+            for all UC Berkeley students, faculty, and staff.
+        </div>
+        <button class='createaccount'>Create an Account</button>
+    </div>
+</section>
+
+<section class="icons">
+    <a href="https://irc.ocf.berkeley.edu/">
+        <img src='{{ "/assets/images/irc.svg" }}'>
+    </a>
+    <a href="https://fco.slack.com">
+        <img src='{{ "/assets/images/slack.svg" }}'>
+    </a>
+    <a href="https://mastodon.ocf.berkeley.edu">
+        <img src='{{ "/assets/images/mastodon.svg" }}'>
+    </a>
+    <a href="https://callink.berkeley.edu/organization/ocf">
+        <img src='{{ "/assets/images/callink.png" }}'>
+    </a>
+    <a href="https://github.com/ocf">
+        <img src='{{ "/assets/images/github.svg" }}'>
+    </a>
+</section>
+
+<section class="boxes">
+    <!-- "Static" boxes are in index.md -->
+    {{ content }}
+
+    <div class="box hours">
+        <h1>
+            Currently <span class='text-success'>Open</span>
+        </h1>
+        <h2>
+            <!-- This could be tricky to handle in a static site, we could
+                 either redeploy every day or handle this in Javascript -->
+            Today's hours: 9AM - 6PM
+            <a>See more »</a>
+        </h2>
+
+        <p>There are currently 5 people in the lab, including 4 staff:</p>
+        <p>c⁠ooperc, f⁠ydai, r⁠rchan, v⁠aibhavj</p>
+    </div>
+
+    <div class="box news">
+        <div>
+            <h1>Staff news</h1>
+            <h2><a href="https://status.ocf.berkeley.edu">More updates »</a></h2>
+        </div>
+
+        <div class="newspost">
+            <div class="posttitle">Downtime on May 21, 22:40 to 22:50</div>
+            <div class="postsubtitle">2 weeks, 2 days ago</div>
+        </div>
+        <div class="newspost">
+            <div class="posttitle">Introducing the OCF Mastodon service!</div>
+            <div class="postsubtitle">1 month, 1 week ago</div>
+        </div>
+    </div>
+
+    <div class="box stats">
+        <h1>This week's stats</h1>
+        <h2><a>See More »</a></h2>
+        <div class="singlestats">
+            <div>
+                <div class="statheading">
+                    Pages printed
+                </div>
+                <div class="statvalue">3,456</div>
+            </div>
+            <div>
+                <div class="statheading">
+                    Bandwidth Usage
+                </div>
+                <div class="statvalue">123GB</div>
+            </div>
+            <div>
+                <div class="statheading">
+                    Hours farmed
+                </div>
+                <div class="statvalue">456</div>
+            </div>
+            <div>
+                <div class="statheading">
+                    Accounts created
+                </div>
+                <div class="statvalue">9</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>

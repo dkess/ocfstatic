@@ -1,0 +1,40 @@
+html {
+    font-size: 1em;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    // we should put all this color stuff in abstracts.scss
+    color: #00d1b2;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.text-success {
+    color: #23d160;
+}
+
+body {
+  color: #4a4a4a;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+body, button, input, select, textarea {
+  font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+footer {
+  background-color: #fafafa;
+  display: block;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  font-size: .75rem;
+}
